@@ -1,0 +1,92 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  background-image: url(./Waves.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.bg::after {
+  content: "";
+  background-image: url(./UdacityLogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 65px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  box-shadow: 5px -3px 1px #2c6164ee;
+}
+.frame {
+  background-color: rgba(0, 255, 255, 0.661);
+  border-radius: 10px;
+  padding: 3px;
+  box-shadow: 10px -10px 2px rgba(44, 100, 93, 0.878);
+}
+.content {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid rgba(44, 51, 100, 0.367);
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0;
+  margin: 2px;
+}
+h1 {
+  font: 2rem bold "Fira Sans", sans-serif;
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align: center;
+  text-shadow: 0.07em 0.06em 0.05em rgba(94, 0, 128, 0.936);
+  color: rgba(0, 107, 128, 0.985);
+}
+img,
+figure {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.quick_fact {
+  font: italic normal 13px Georgia, serif;
+}
+span {
+  font: normal bold 15px "Times New Roman";
+}
+.text {
+  border: 2px ridge rgba(0, 238, 255, 0.903);
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 5px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li,
+figure {
+  font: normal normal 13px caption;
+}
+.description {
+  font: normal normal 13px Georgia, serif;
+}
+footer,
+a {
+  text-align: center;
+  font: italic 0.85em sans-serif;
+  color: #420080;
+}
